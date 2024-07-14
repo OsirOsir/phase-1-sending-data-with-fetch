@@ -24,9 +24,9 @@ function submitData(userName, userEmail) {
 }
 
 function appendIdToDOM(id) {
-  document.body.innerHTML += `<p>New user ID: ${id}</p>`;
+  document.body.innerHTML = `<p>New user ID: ${id}</p>`;
 }
 
 function appendErrorToDOM(message) {
-  document.body.innerHTML += `<p>Error: ${message}</p>`;
+  document.body.innerHTML = `<p>Error: ${message}</p>`;
 }
